@@ -131,17 +131,17 @@ h6 {
 }
 
 .header .branding {
-  min-height: 60px;
-  padding: 10px 0;
+  min-height: 10px;
+  padding: -1px 0;
 }
 
 .header .logo {
   line-height: 1;
 }
 
-.header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+ .logo img {
+  max-height: 100px;
+  margin-right: -24px;
 }
 
 .header .logo h1 {
@@ -1588,7 +1588,7 @@ section,
 }
 
 .pricing h4 {
-  font-size: 48px;
+  font-size: 25px;
   color: var(--accent-color);
   font-weight: 700;
   font-family: var(--heading-font);
